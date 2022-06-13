@@ -66,18 +66,18 @@
       "alignment": "right",
       "segments": [
         {
-          "background": "#0077c2",
+          "background": "#f6194c",
           "foreground": "#ffffff",
           "style": "plain",
           "template": "<#0077c2,transparent>\ue0b6</> \uf489 {{ .Name }} <transparent,#0077c2>\ue0b2</>",
           "type": "shell"
         },
         {
-          "background": "#f9e10b",
+          "background": "#ede215",
           "background_templates": [
-            "{{if eq \"Charging\" .State.String}}#40c4ff{{end}}",
-            "{{if eq \"Discharging\" .State.String}}#ff5722{{end}}",
-            "{{if eq \"Full\" .State.String}}#4caf50{{end}}"
+            "{{if eq \"Charging\" .State.String}}#33e95e{{end}}",
+            "{{if eq \"Discharging\" .State.String}}#ede215{{end}}",
+            "{{if eq \"Full\" .State.String}}#33e95e{{end}}"
           ],
           "foreground": "#ffffff",
           "invert_powerline": true,
@@ -92,7 +92,7 @@
           "type": "battery"
         },
         {
-          "background": "#2e9599",
+          "background": "#08e2e9",
           "foreground": "#111111",
           "invert_powerline": true,
           "leading_diamond": "\ue0b2",
