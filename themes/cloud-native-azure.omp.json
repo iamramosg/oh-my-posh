@@ -73,7 +73,7 @@
           "type": "shell"
         },
         {
-          "background": "#edcd15",
+          "background": "#5915ed",
           "background_templates": [
             "{{if eq \"Charging\" .State.String}}#33e95e{{end}}",
             "{{if eq \"Discharging\" .State.String}}#ede215{{end}}",
